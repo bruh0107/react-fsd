@@ -6,7 +6,6 @@ interface Props {
 
 const modules = import.meta.glob("@/assets/icons/*.svg", {
     query: "?react",
-    import: "default",
 });
 
 const icons = Object.fromEntries(

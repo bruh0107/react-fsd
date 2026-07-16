@@ -7,7 +7,9 @@ export const DefaultLayout: FC = () => {
         <>
             <AppHeader />
             <main>
-                <Outlet />
+                <div className="container">
+                    <Outlet />
+                </div>
             </main>
         </>
     )
